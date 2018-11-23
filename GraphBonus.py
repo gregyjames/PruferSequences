@@ -109,8 +109,8 @@ P.addEdge(14,12)
 P.addEdge(15,13)
 P.addEdge(15,14)
 
+#Convert the graph into a sequence
 prufer = graphToPrufer(P)
-#print prufer
+
+#Convert a sequence to a graph
 PruferToGraph(prufer)
-#PruferToGraph([5, 7, 7, 1, 3, 4, 3, 5, 5, 1, 10, 6, 5])
-#PruferToGraph([1,1,1,1,1,1,1])
